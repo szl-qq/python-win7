@@ -1,0 +1,9 @@
+LIBRARY win7k32shim.dll
+EXPORTS
+    CopyFile2
+    PssCaptureSnapshot
+    PssQuerySnapshot
+    PssFreeSnapshot
+    AddDllDirectory
+    RemoveDllDirectory
+    GetCurrentThreadStackLimits

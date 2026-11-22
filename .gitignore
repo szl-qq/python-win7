@@ -1,0 +1,15 @@
+# 构建产物与第三方二进制不入库
+build/
+dist/
+*.zip
+
+# 第三方 redistributable（构建时由 build.sh 下载）
+vc_redist.x86.exe
+
+# 编译产物
+shim/*.dll
+shim/*.o
+
+# Python
+__pycache__/
+*.py[cod]
