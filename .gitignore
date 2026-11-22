@@ -2,6 +2,8 @@
 build/
 dist/
 *.zip
+# 发布产物随仓库分发
+!release/*.zip
 
 # 第三方 redistributable（构建时由 build.sh 下载）
 vc_redist.x86.exe
